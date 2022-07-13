@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -12,14 +12,17 @@
 <body>
     <div class="wrapper">
         <header class="header" id="header">
-            <div class="header__logo">
-                <img class="logo__img" id="header-img" src="#" alt="Main logo">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <img class="logo__img" id="header-img" src="img/main-logo.png" alt="Main logo">
+                </div>
+                <nav id="nav-bar" class="main-nav">
+                    <a class="main-nav__link" href="#features">Features</a>
+                    <a class="main-nav__link" href="#how-it-works">How It Works</a>
+                    <a class="main-nav__link" href="#pricing">Pricing</a>
+                </nav>
             </div>
-            <nav id="nav-bar"></nav>
-            <a class="nav-link" href="#features">Features</a>
-            <a class="nav-link" href="#how-it-works">How It Works</a>
-            <a class="nav-link" href="#pricing">Pricing</a>
-            </nav>
+
         </header>
         <main>
             <section class="intro" id="hero">
@@ -28,15 +31,15 @@
                 </h1>
                 <form class="form" id="form" action="https://www.freecodecamp.com/email-submit">
                     <input id="email" type="email" name="email" class="form__input-email"
-                        placeholder="Enter your email address">
-                    <input id="submit" type="submit" class="form__input-submit  value=" get started">
+                        placeholder="Enter your email address" required>
+                    <input id="submit" type="submit" class="form__input-submit"  value="Get started">
                 </form>
             </section>
             <div class="container">
                 <div class="features" id="features">
                     <div class="features__item">
                         <div class="features__svg">
-                            <i id="header-img" class="fa fa-3x fa-fire"></i>
+                            <i id="features-img" class="fa fa-3x fa-fire"></i>
                         </div>
                         <div class="features__description">
                             <h2 class="features__title">Premium Materials</h2>
@@ -48,7 +51,7 @@
                     </div>
                     <div class="features__item">
                         <div class="features__svg">
-                            <i id="header-img" class="fa fa-3x fa-truck"></i>
+                            <i id="features-img" class="fa fa-3x fa-truck"></i>
                         </div>
                         <div class="features__description">
                             <h2 class="features__title">Fast Shipping</h2>
@@ -60,7 +63,7 @@
                     </div>
                     <div class="features__item">
                         <div class="features__svg">
-                            <i id="header-img" class="fa fa-3x fa-battery-full"></i>
+                            <i id="features-img" class="fa fa-3x fa-battery-full"></i>
                         </div>
                         <div class="features__description">
                             <h2 class="features__title">Quality Assurance</h2>
@@ -82,22 +85,34 @@
                     <div class="pricing__item">
                         <h3 class="pricing__title">TENOR TROMBONE</h3>
                         <span class="pricing__value">$600</span>
-                        <p class="pricing__text">Lorem ipsum.<br> Lorem ipsum.<br> Lorem ipsum dolor.<br> Lorem ipsum.
-                        </p>
+                        <ul class="pricing__list">
+                            <li>Lorem ipsum.</li>
+                            <li>Lorem ipsum.</li>
+                            <li>Lorem ipsum dolor.</li>
+                            <li>Lorem ipsum.</li>
+                        </ul>
                         <button class="pricing__btn">Select</button>
                     </div>
                     <div class="pricing__item">
                         <h3 class="pricing__title">BASS TROMBONE</h3>
                         <span class="pricing__value">$900</span>
-                        <p class="pricing__text">Lorem ipsum.<br> Lorem ipsum.<br> Lorem ipsum dolor.<br> Lorem ipsum.
-                        </p>
+                        <ul class="pricing__list">
+                            <li>Lorem ipsum.</li>
+                            <li>Lorem ipsum.</li>
+                            <li>Lorem ipsum dolor.</li>
+                            <li>Lorem ipsum.</li>
+                        </ul>
                         <button class="pricing__btn">Select</button>
                     </div>
                     <div class="pricing__item">
                         <h3 class="pricing__title">VALVE TROMBONE</h3>
-                        <span class="pricing__value"></span>
-                        <p class="pricing__text">Plays similar to a Trumpet<br> Great for Jazz Bands<br> Lorem ipsum
-                            dolor.<br> Lorem ipsum.</p>
+                        <span class="pricing__value">$1200</span>
+                        <ul class="pricing__list">
+                            <li>Plays similar to a Trumpet</li>
+                            <li>Great for Jazz Bands</li>
+                            <li>Lorem ipsum dolor.</li>
+                            <li>Lorem ipsum.</li>
+                        </ul>
                         <button class="pricing__btn">Select</button>
                     </div>
                 </div>

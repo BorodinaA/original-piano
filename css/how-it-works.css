@@ -1,0 +1,11 @@
+.how-it-works{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe {
+    max-width: 560px;
+    width: 100%;
+}

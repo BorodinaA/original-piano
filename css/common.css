@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
 * {
     margin: 0;
@@ -13,6 +13,9 @@
     background-color: var(--background-color);
     --text-color: rgb(0, 0, 0);
     --background-color: #eee;
+    --background-btn: rgb(241, 196, 15);
+    --border-color: rgb(0, 0, 0);
+    --pricing__title: #ddd;
 }
 
 img {
@@ -23,4 +26,10 @@ img {
 
 a {
     text-decoration: none;
+    color: var(--text-color);
+}
+
+li {
+	text-decoration: none;
+	list-style: none;
 }

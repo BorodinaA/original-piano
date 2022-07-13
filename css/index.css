@@ -1,4 +1,7 @@
 @import 'common.css';
 @import 'controls.css';
-
+@import 'header.css';
 @import 'intro.css';
+@import 'features.css';
+@import 'how-it-works.css';
+@import 'pricing.css';
