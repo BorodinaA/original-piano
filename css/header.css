@@ -1,0 +1,8 @@
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    --background-color: #eee;
+}
